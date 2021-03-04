@@ -22,6 +22,12 @@ This is the dependencies of the project of [video-to-pose3D](https://github.com/
 - **Packages**
   - Pytorch > 1.1.0 (I use the Pytorch1.1.0 - GPU)
   - [torchsample](https://github.com/MVIG-SJTU/AlphaPose/issues/71#issuecomment-398616495)
+"
+pip install -e git+https://github.com/ncullen93/torchsample.git#egg=torchsample
+pip install visdom
+pip install nibabel
+pip install h5py  # this will be removed in the formal version
+"
   - [ffmpeg](https://ffmpeg.org/download.html) (note:you must copy the ffmpeg.exe to the directory of python install)
   - tqdm
   - pillow
